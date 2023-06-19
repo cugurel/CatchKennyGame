@@ -85,13 +85,15 @@ public class MainActivity extends AppCompatActivity {
                 alert.setNegativeButton("No", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
-                        Toast.makeText(MainActivity.this, "Game Over!", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(MainActivity.this, "Game Done!", Toast.LENGTH_SHORT).show();
                     }
                 });
                 alert.show();
             }
         }.start();
     }
+
+
 
 
     public void increaseScore(View view){
